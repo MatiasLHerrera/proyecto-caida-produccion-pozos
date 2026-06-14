@@ -62,3 +62,18 @@ Thumbs.db
 *.log
 tmp/
 temp/
+
+# Datos
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Modelos entrenados
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+*.pickle
