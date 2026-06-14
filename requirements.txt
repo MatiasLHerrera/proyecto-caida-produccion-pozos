@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+plotly
+jupyter
+notebook
+ipykernel
+joblib
+pyarrow
+openpyxl
+python-dotenv

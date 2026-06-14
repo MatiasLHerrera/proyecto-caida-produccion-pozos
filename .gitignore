@@ -1,0 +1,64 @@
+# Entornos virtuales
+.venv/
+.venv*/
+venv/
+env/
+ENV/
+
+# Variables de entorno y configuracion local
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datos: no versionar archivos raw, externos o procesados pesados
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Artefactos de modelos
+models/*
+!models/.gitkeep
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.h5
+*.pt
+*.pth
+
+# Archivos grandes comunes de datos
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.jsonl
+*.zip
+*.7z
+*.rar
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs y temporales
+*.log
+tmp/
+temp/
